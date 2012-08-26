@@ -34,21 +34,21 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     FCell *cell = nil;
     
-    if ([indexPath row] % 2) {
+//    if ([indexPath row] % 2) {
         cell = (RedCell *)[tableView dequeueReusableCellWithIdentifier:@"RedCellIdentifier"];
         if (cell == nil) {
             cell = [FCellFactory creatCell:@"RedCell"
                             dictionaryData:[NSDictionary dictionaryWithObject:@"i am red" forKey:@"color"] 
                                  indexPath:indexPath];
         }
-    } else {
-        cell = (BlueCell *)[tableView dequeueReusableCellWithIdentifier:@"BlueCellIdentifier"];
-        if (cell == nil) {
-            cell = [FCellFactory creatCell:@"BlueCell" 
-                            dictionaryData:[NSDictionary dictionaryWithObject:@"i am blue" forKey:@"color"] 
-                                 indexPath:indexPath];
-        }    
-    }
+//    } else {
+//        cell = (BlueCell *)[tableView dequeueReusableCellWithIdentifier:@"BlueCellIdentifier"];
+//        if (cell == nil) {
+//            cell = [FCellFactory creatCell:@"BlueCell" 
+//                            dictionaryData:[NSDictionary dictionaryWithObject:@"i am blue" forKey:@"color"] 
+//                                 indexPath:indexPath];
+//        }    
+//    }
     
     return cell;
 }
