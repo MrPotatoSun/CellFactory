@@ -21,6 +21,8 @@
 		B6B4C0EA15E9CFFE00B59923 /* FCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4C0E915E9CFFE00B59923 /* FCellFactory.m */; };
 		B6B4C0EC15E9D4BC00B59923 /* BlueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B4C0EB15E9D4BC00B59923 /* BlueCell.xib */; };
 		B6B4C0EE15E9D4F300B59923 /* RedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B4C0ED15E9D4F300B59923 /* RedCell.xib */; };
+		B6B4C12D15EA1D1F00B59923 /* RedCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4C12C15EA1D1F00B59923 /* RedCellFactory.m */; };
+		B6B4C13115EA1D3700B59923 /* BlueCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4C13015EA1D3700B59923 /* BlueCellFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,10 @@
 		B6B4C0E915E9CFFE00B59923 /* FCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCellFactory.m; sourceTree = "<group>"; };
 		B6B4C0EB15E9D4BC00B59923 /* BlueCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueCell.xib; sourceTree = "<group>"; };
 		B6B4C0ED15E9D4F300B59923 /* RedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedCell.xib; sourceTree = "<group>"; };
+		B6B4C12B15EA1D1F00B59923 /* RedCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedCellFactory.h; sourceTree = "<group>"; };
+		B6B4C12C15EA1D1F00B59923 /* RedCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedCellFactory.m; sourceTree = "<group>"; };
+		B6B4C12F15EA1D3700B59923 /* BlueCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueCellFactory.h; sourceTree = "<group>"; };
+		B6B4C13015EA1D3700B59923 /* BlueCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueCellFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,8 @@
 				B6B4C0DF15E9CD9A00B59923 /* BlueCell.h */,
 				B6B4C0E015E9CD9A00B59923 /* BlueCell.m */,
 				B6B4C0EB15E9D4BC00B59923 /* BlueCell.xib */,
+				B6B4C12F15EA1D3700B59923 /* BlueCellFactory.h */,
+				B6B4C13015EA1D3700B59923 /* BlueCellFactory.m */,
 				B6B4C0E515E9CF7700B59923 /* FCell.h */,
 				B6B4C0E615E9CF9100B59923 /* FCell.m */,
 				B6B4C0E815E9CFFE00B59923 /* FCellFactory.h */,
@@ -128,6 +136,8 @@
 				B6B4C0DC15E9CD8200B59923 /* RedCell.h */,
 				B6B4C0DD15E9CD8200B59923 /* RedCell.m */,
 				B6B4C0ED15E9D4F300B59923 /* RedCell.xib */,
+				B6B4C12B15EA1D1F00B59923 /* RedCellFactory.h */,
+				B6B4C12C15EA1D1F00B59923 /* RedCellFactory.m */,
 			);
 			name = AllCell;
 			sourceTree = "<group>";
@@ -203,6 +213,8 @@
 				B6B4C0E115E9CD9A00B59923 /* BlueCell.m in Sources */,
 				B6B4C0E715E9CF9100B59923 /* FCell.m in Sources */,
 				B6B4C0EA15E9CFFE00B59923 /* FCellFactory.m in Sources */,
+				B6B4C12D15EA1D1F00B59923 /* RedCellFactory.m in Sources */,
+				B6B4C13115EA1D3700B59923 /* BlueCellFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +324,7 @@
 				B6B4C0D415E9CC7D00B59923 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
